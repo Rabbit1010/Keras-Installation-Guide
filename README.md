@@ -44,3 +44,11 @@ And test if the installation is OK in Python
 ```python
 import keras
 ```
+
+## Other packages
+Here are other python packages you might need
+```
+conda install scikit-learn
+conda install matplotlib
+conda install pillow
+```
