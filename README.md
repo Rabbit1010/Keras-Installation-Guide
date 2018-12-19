@@ -6,6 +6,8 @@ We would be using Python via [Anaconda](https://www.anaconda.com/download/). Dow
 
 # Create Virtual Environment in Anaconda
 Since tensorflow currently only support python 3.4, 3.5, 3.6 in Windows, we need to create a virtual environment in Anaconda which is python 3.6.
+
+In Anaconda prompt:
 ```
 # Create environment
 conda create --name py36 python=3.6
@@ -29,7 +31,7 @@ otherwise, install the CPU version
 ```
 conda install tensorflow
 ```
-Enter spyder or other IDE (make sure you inside the virtual environment), and test if the installation is OK
+Enter spyder or other IDE (make sure you are inside the virtual environment), and test if the installation is OK
 ```python
 import tensorflow as tf
 print(tf.VERSION)
