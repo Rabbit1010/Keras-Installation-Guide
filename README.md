@@ -50,6 +50,7 @@ import keras
 ## Other packages
 Here are other python packages you might need
 ```
+conda install spyder
 conda install scikit-learn
 conda install matplotlib
 conda install pillow
