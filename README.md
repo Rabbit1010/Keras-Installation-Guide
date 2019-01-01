@@ -19,6 +19,10 @@ activate py36
 python --version
 >> Python 3.6.5
 ```
+If you are using Spyder as your Python IDE, remeber to install Spyder in this environment
+```
+conda install spyder
+```
 
 # Install tensorflow
 If the computer has Nvidia GPU card, you can choose to install GPU version of tensorflow. Make sure you are installing tensorflow in the virtual environment which is Python 3.6
@@ -49,9 +53,7 @@ import keras
 
 ## Other packages
 Here are other python packages you might need
-```
-conda install spyder
-conda install scikit-learn
-conda install matplotlib
-conda install pillow
-```
+1. scikit-learn
+2. matplotlib
+3. pillow
+4. opencv (cv2)
